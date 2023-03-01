@@ -16,7 +16,7 @@ const updateTime = ()=>{
   // console.log(d.getMinutes(), alarmmin)
   if(d.getHours()==alarmhour && d.getMinutes() == alarmmin){
     console.log("Alarm is ringing")
-    let audiourl = "https://file-examples.com/storage/fe08fee24d63ff4459cb31c/2017/11/file_example_MP3_700KB.mp3"
+    let audiourl = "https://file-examples.com/storage/fe837fd2e763ff6e89b138e/2017/11/file_example_MP3_1MG.mp3"
     var audio = new Audio(audiourl);
     audio.play();
   }
